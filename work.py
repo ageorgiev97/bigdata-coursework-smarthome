@@ -49,6 +49,21 @@ def main():
     hql = here / 'create.hql';
     run(f'hive -f "{hql.absolute()}"')
 
+    info('Ensuring that the local MySQL database is properly set up...')
+    run('mysql -u root -proot -e "create database if not exists SensorData;"')
+    run(
+        'mysql -u root -proot -e "'
+        '    use SensorData;'
+        '    create table if not exists SensorData('
+        '        id          int,'
+        '        created     timestamp,'
+        '        entity      varchar(100),'
+        '        previous_id int,'
+        '        state float'
+        '    )'
+        '"'
+    )
+    
     info('Clearing SensorData mysql table...')
     run('mysql -u root -proot -e "use SensorData; delete from SensorData;"')
 
