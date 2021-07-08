@@ -5,7 +5,7 @@
 </p>
 
 
-##How to setup:
+### How to setup:
 
 The input sensor data must be placed in the `landing/` folder, adjacent to the `work.py` script.
 
