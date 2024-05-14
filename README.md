@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn-icons-png.freepik.com/512/10751/10751558.png" alt="Logo" >
+    <img src="https://cdn-icons-png.flaticon.com/256/10751/10751558.png" alt="Logo" >
     <h2 align="center">SmartHome Analytics: visualise and analyze your home!</h2>
     <p align="center">Coursework for BigData course at TU-Varna</p>
 </p>
