@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/house_1f3e0.png" alt="Logo" >
+    <img src="https://cdn-icons-png.freepik.com/512/10751/10751558.png" alt="Logo" >
     <h2 align="center">SmartHome Analytics: visualise and analyze your home!</h2>
     <p align="center">Coursework for BigData course at TU-Varna</p>
 </p>
